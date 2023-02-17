@@ -1,0 +1,97 @@
+/* animations */
+@keyframes animacao {
+	from {background-color: red;}
+	to {background-color: yellow;}
+}
+
+@keyframes animacao2 {
+	0% {}
+	30% {width: 100px;}
+	60% {background-color: red;}
+	80% {left: 100px; background-color: blue;}
+	100% {height: 100px;}
+}
+
+@keyframes animacao3 {
+	from {left: 0}
+	to {left: 200px; background-color: green}
+}
+
+@keyframes animacao4 {
+	from{left: 0;}
+	to{left: 500px;}
+}
+
+@keyframes animacao5{
+	0%{left: 0px;}
+	25%{left: 20px; background-color: blue;}
+	60%{left: 100px; background-color: orange;}
+	100%{left: 30px; background-color: red;}
+}
+
+.animation-div {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: animacao;
+	animation-duration: 5s;
+}
+
+.animation-div2 {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	animation-name: animacao2;
+	animation-duration: 6s;
+	position: relative;
+}
+
+/* animation delay e iteration */
+.animation-div3 {
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+	position: relative;
+	animation-name: animacao3;
+	animation-duration: 5s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+}
+
+.box{
+	background-color: orange;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	animation-name: animacao4;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+#animation-div4{
+	animation-timing-function: linear;
+}
+#animation-div5{
+	animation-timing-function: ease;
+}
+#animation-div6{
+	animation-timing-function: ease-in;
+}
+#animation-div7{
+	animation-timing-function: ease-out;
+}
+#animation-div8{
+	animation-timing-function: ease-in-out;
+}
+
+/* ShortHand */
+#animation-div9{
+	background-color: darkblue;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	animation: animacao5 8s ease-out 4s infinite;
+	
+}
+
+
