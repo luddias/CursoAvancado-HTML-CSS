@@ -206,3 +206,56 @@
 
 /* Font face */
 
+@font-face{
+	font-family: "Lage Grafica";
+	src: url(fonts/lage_grafica.ttf);
+}
+
+.fontface{
+	font-family: "Lage Grafica";
+}
+
+/* media query */
+
+.mediaquery{
+	height: 200px;
+	width: 1200px;
+	background-color: #51e251;
+}
+
+@media (max-width: 1000px){
+	.mediaquery{
+		width: 500px;
+		background-color: blue;
+	}
+}
+
+@media (max-width: 798px){
+	.mediaquery{
+		width: 300px;
+		background-color: orange;
+	}
+}
+
+@media (max-width: 512px){
+	.mediaquery{
+		width: 200px;
+		background-color: green;
+	}
+}
+
+/* border radius */
+.div-border{
+	height: 100px;
+	width: 100px;
+	background-color: #a200ff;
+	margin: 20px;
+}
+.border-radius1{
+	border-radius: 50%;
+}
+
+.border-radius2{
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
