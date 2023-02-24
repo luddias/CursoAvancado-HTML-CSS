@@ -94,4 +94,115 @@
 	
 }
 
+/* Transition */
+.btn {
+	display: block;
+	position: relative;
+	padding: 10px;
+	margin-bottom: 25px;
+	width: 150px;
+	height: 75px;
+	color: #FFF;
+	text-transform: uppercase;
+	background-color: #333;
+	cursor: pointer;
+	transition: 1s;
+
+}
+
+.btn:hover {
+	color: 333;
+	background-color: #FFF;
+}
+
+.transition {
+	width: 50px;
+	height: 100px;
+	background-color: red;
+	transition: 4s;
+}
+
+.transition:hover{
+	width: 300px;
+}
+
+/*  calc */
+.div-calc{
+	height: 250px;
+	width: 500px;
+	position: relative;
+	margin: 20px;
+	background-color: #333;
+	border: 1px solid red;
+}
+
+.innerdiv-calc {
+	height: 50px;
+	margin: 10px;
+	position: relative;
+	background-color: dimgray;
+}
+
+.calc1{
+	width: calc(50% + 50px);
+}
+.calc2{
+	width: calc(50% - 50px);
+}
+.calc3{
+	width: calc(50% * 2);
+	margin: 0px;
+}
+
+.calc4{
+	width: calc(50% / 2);
+}
+
+/* Gradiente Linear */
+
+.gradient-box{
+	height: 200px;
+	width: 500px;
+	position: relative;
+	margin: 20px;
+}
+
+.gradient1 {
+	background-image: linear-gradient(rgb(247, 0, 103), yellow);
+}
+
+.gradient2 {
+	background-image: linear-gradient(to right, rgb(247, 0, 103), yellow);
+}
+
+.gradient3 {
+	background-image: linear-gradient(to left, rgb(247, 0, 103), yellow);
+}
+
+.gradient4 {
+	background-image: linear-gradient(to top, rgb(247, 0, 103), yellow);
+}
+
+.gradient5 {
+	background-image: linear-gradient(to top right,rgb(223, 0, 74), red,orange, yellow);
+}
+
+.gradient6 {
+	background-image: linear-gradient(to top left, rgb(247, 0, 103), orange, yellow, green);
+}
+
+/* Gradiente Radial */
+.gradient7{
+	background-image: radial-gradient(#8c00ff, #00ffddcb, #51e251);
+}
+
+.gradient8{
+	background-image: radial-gradient(#8c00ff 10%, #00ffddcb 30%, #51e251);
+}
+
+.gradient9{
+	background-image: radial-gradient(circle, #8c00ff , #00ffddcb , #51e251);
+}
+
+/* Font face */
 
