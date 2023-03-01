@@ -123,11 +123,14 @@ section{
     padding-right: 30px;
 }
 
+#sessao-bemvindo .sessao-descricao p {
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
 .sessao-descricao p {
     line-height: 2;
     font-size: 16px;
-    margin-bottom: 20px;
-    margin-left: 25px;
 }
 
 .sessao-bemvindo-btn, form input[type=submit]{
@@ -148,3 +151,16 @@ section{
     background-color: #f796b6;
 }
 
+#sessao-sobre .img-descricao{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+#sessao-sobre .sessao-minibanner{
+    float: right;
+    margin-right:50px;
+    background-image: url(../img/minibanner2.jpg);
+    position:relative;
+    width: 100%
+}
