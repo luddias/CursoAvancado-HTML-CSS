@@ -1,8 +1,17 @@
 html{
     font-family: 'Open Sans', sans-serif;
-    color: #373A3C
+    color: #373A3C;
+    scroll-behavior: smooth;
 }
 
+
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+ 
 a{
     transition: .5s;
 }
